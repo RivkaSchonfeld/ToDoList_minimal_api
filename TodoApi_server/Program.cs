@@ -27,15 +27,15 @@ var app = builder.Build();
 app.UseCors("AllowAllOrigins");
 
 // Swagger configuration
-if (builder.Environment.IsDevelopment())
-{
+//if (builder.Environment.IsDevelopment())
+//{
     app.UseSwagger();
     app.UseSwaggerUI(options =>
     {
         options.SwaggerEndpoint("/swagger/v1/swagger.json", "v1");
         options.RoutePrefix = "swagger";
     });
-}
+//}
 
 app.MapGet("/", async (ToDoDbContext dbContext) =>//to get all the tasks
 {
@@ -79,7 +79,7 @@ app.MapDelete("/{id}", async (int id, ToDoDbContext dbContext) =>
     await dbContext.SaveChangesAsync();
     return Results.NoContent();
 });
-
+app.MapGet("/k", () => "SERVER API is Running");
 
 
 app.Run();
