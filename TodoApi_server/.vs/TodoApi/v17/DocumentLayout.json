@@ -34,8 +34,7 @@
               "RelativeToolTip": "ToDoDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAACgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T19:24:39.235Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T19:24:39.235Z"
             },
             {
               "$type": "Document",
@@ -57,7 +56,7 @@
               "RelativeDocumentMoniker": "Dockerfile",
               "ToolTip": "C:\\Rivkas desktop\\Practicode\\ToDoListMinimalApi\\ToDoList_minimal_api\\TodoApi_server\\Dockerfile",
               "RelativeToolTip": "Dockerfile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAowCAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-03-20T16:25:33.335Z",
               "EditorCaption": ""
