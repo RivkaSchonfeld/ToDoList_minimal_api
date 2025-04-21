@@ -22,9 +22,14 @@ builder.Services.AddSwaggerGen();
 
 
 builder.Services.AddDbContext<ToDoDbContext>(options =>
-    options.UseMySql("server=localhost;user=root;password=1234;database=ToDoDB",
+    options.UseMySql("server=bzihwsot5wnlw05shmep-mysql.services.clever-cloud.com;user=uc1h6zquvck9wpdk;password=W9LIbD5yyy1T36bm39BU;database=bzihwsot5wnlw05shmep",
      Microsoft.EntityFrameworkCore.ServerVersion.Parse("8.0.41-mysql")));
-     
+
+
+
+
+
+
 var app = builder.Build();
 app.UseCors("AllowAllOrigins");
 

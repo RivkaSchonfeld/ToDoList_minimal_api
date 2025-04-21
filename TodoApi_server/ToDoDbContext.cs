@@ -19,9 +19,16 @@ public partial class ToDoDbContext : DbContext
 
     public DbSet<Item> Items { get; set; }
 
+    // protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) => optionsBuilder
+    // .UseMySql("\"server=bzihwsot5wnlw05shmep-mysql.services.clever-cloud.com;user=uc1h6zquvck9wpdk;password=W9LIbD5yyy1T36bm39BU;database=bzihwsot5wnlw05shmep\"",
+    //  Microsoft.EntityFrameworkCore.ServerVersion.Parse("8.0.41-mysql"));
+
+
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) => optionsBuilder
-    .UseMySql("\"server=bzihwsot5wnlw05shmep-mysql.services.clever-cloud.com;user=uc1h6zquvck9wpdk;password=W9LIbD5yyy1T36bm39BU;database=bzihwsot5wnlw05shmep\"",
+    .UseMySql("server=bzihwsot5wnlw05shmep-mysql.services.clever-cloud.com;user=uc1h6zquvck9wpdk;password=W9LIbD5yyy1T36bm39BU;database=W9LIbD5yyy1T36bm39BU",
      Microsoft.EntityFrameworkCore.ServerVersion.Parse("8.0.41-mysql"));
+
+
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder
