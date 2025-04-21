@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Rivkas desktop\\Practicode\\ToDoListMinimalApi\\ToDoList_minimal_api\\TodoApi_server\\TodoApi.csproj": {}
+    "C:\\Rivkas desktop\\Practicode\\2104 practicode\\ToDoList_minimal_api\\TodoApi_server\\TodoApi.csproj": {}
   },
   "projects": {
-    "C:\\Rivkas desktop\\Practicode\\ToDoListMinimalApi\\ToDoList_minimal_api\\TodoApi_server\\TodoApi.csproj": {
+    "C:\\Rivkas desktop\\Practicode\\2104 practicode\\ToDoList_minimal_api\\TodoApi_server\\TodoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Rivkas desktop\\Practicode\\ToDoListMinimalApi\\ToDoList_minimal_api\\TodoApi_server\\TodoApi.csproj",
+        "projectUniqueName": "C:\\Rivkas desktop\\Practicode\\2104 practicode\\ToDoList_minimal_api\\TodoApi_server\\TodoApi.csproj",
         "projectName": "TodoApi",
-        "projectPath": "C:\\Rivkas desktop\\Practicode\\ToDoListMinimalApi\\ToDoList_minimal_api\\TodoApi_server\\TodoApi.csproj",
+        "projectPath": "C:\\Rivkas desktop\\Practicode\\2104 practicode\\ToDoList_minimal_api\\TodoApi_server\\TodoApi.csproj",
         "packagesPath": "C:\\Users\\rivka\\.nuget\\packages\\",
-        "outputPath": "C:\\Rivkas desktop\\Practicode\\ToDoListMinimalApi\\ToDoList_minimal_api\\TodoApi_server\\obj\\",
+        "outputPath": "C:\\Rivkas desktop\\Practicode\\2104 practicode\\ToDoList_minimal_api\\TodoApi_server\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

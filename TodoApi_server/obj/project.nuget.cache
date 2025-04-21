@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZUNTEkomxrk=",
+  "dgSpecHash": "u3TmHvOhwog=",
   "success": true,
-  "projectFilePath": "C:\\Rivkas desktop\\Practicode\\ToDoListMinimalApi\\ToDoList_minimal_api\\TodoApi_server\\TodoApi.csproj",
+  "projectFilePath": "C:\\Rivkas desktop\\Practicode\\2104 practicode\\ToDoList_minimal_api\\TodoApi_server\\TodoApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rivka\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\rivka\\.nuget\\packages\\microsoft.aspnetcore.cors\\2.3.0\\microsoft.aspnetcore.cors.2.3.0.nupkg.sha512",
