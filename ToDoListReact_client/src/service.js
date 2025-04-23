@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-axios.defaults.baseURL = 'http://localhost:5002';// קנפגתי את הניתוב הכללי 
+axios.defaults.baseURL = 'https://todolist-minimal-api-server.onrender.com';// קנפגתי את הניתוב הכללי 
 
 axios.interceptors.response.use(
   response => response,
