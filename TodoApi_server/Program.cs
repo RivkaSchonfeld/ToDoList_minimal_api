@@ -22,7 +22,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<ToDoDbContext>(options =>
-    options.UseMySql("ToDoDB",
+    options.UseMySql(builder.Configuration.GetConnectionString("ToDoDB"),
      Microsoft.EntityFrameworkCore.ServerVersion.Parse("8.0.41-mysql")));
 var app = builder.Build();
 app.UseCors();

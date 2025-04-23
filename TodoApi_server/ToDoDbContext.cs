@@ -25,7 +25,7 @@ public partial class ToDoDbContext : DbContext
 
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) => optionsBuilder
-    .UseMySql("ToDoDB",
+    .UseMySql(builder.Configuration.GetConnectionString("ToDoDB"),
      Microsoft.EntityFrameworkCore.ServerVersion.Parse("8.0.41-mysql"));
 
 
