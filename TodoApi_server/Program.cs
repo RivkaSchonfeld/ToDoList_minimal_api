@@ -6,8 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowAllOrigins",
-        builder =>
+    options.AddDefaultPolicy(builder =>
         {
             builder.AllowAnyOrigin()
                    .AllowAnyMethod()
@@ -22,7 +21,7 @@ builder.Services.AddDbContext<ToDoDbContext>(options =>
     options.UseMySql("ToDoDB",
      Microsoft.EntityFrameworkCore.ServerVersion.Parse("8.0.41-mysql")));
 var app = builder.Build();
-app.UseCors("AllowAllOrigins");
+app.UseCors();
 
 // Swagger configuration
 //if (builder.Environment.IsDevelopment())
