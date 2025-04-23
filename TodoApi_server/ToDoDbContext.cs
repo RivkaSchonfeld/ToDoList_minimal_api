@@ -25,7 +25,7 @@ public partial class ToDoDbContext : DbContext
 
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) => optionsBuilder
-    .UseMySql("server=bzihwsot5wnlw05shmep-mysql.services.clever-cloud.com;user=uc1h6zquvck9wpdk;password=W9LIbD5yyy1T36bm39BU;database=W9LIbD5yyy1T36bm39BU",
+    .UseMySql("ToDoDB",
      Microsoft.EntityFrameworkCore.ServerVersion.Parse("8.0.41-mysql"));
 
 
