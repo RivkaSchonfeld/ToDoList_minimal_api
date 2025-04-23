@@ -1,3 +1,7 @@
+
+// "ToDoDB": "Server=bzihwsot5wnlw05shmep-mysql.services.clever-cloud.com;Database=bzihwsot5wnlw05shmep;User=uc1h6zquvck9wpdk;Password=W9LIbD5yyy1T36bm39BU;"
+
+
 using Microsoft.EntityFrameworkCore;
 using TodoApi;
 
