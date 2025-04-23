@@ -2,7 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using TodoApi;
 
 var builder = WebApplication.CreateBuilder(args);
-builder.WebHost.UseUrls("http://localhost:5002");
+// builder.WebHost.UseUrls("http://localhost:5002");
 
 builder.Services.AddCors(options =>
 {
