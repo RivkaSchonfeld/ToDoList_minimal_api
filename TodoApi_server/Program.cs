@@ -18,18 +18,9 @@ builder.Services.AddCors(options =>
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-
-
-
 builder.Services.AddDbContext<ToDoDbContext>(options =>
-    options.UseMySql("server=bzihwsot5wnlw05shmep-mysql.services.clever-cloud.com;user=uc1h6zquvck9wpdk;password=W9LIbD5yyy1T36bm39BU;database=bzihwsot5wnlw05shmep",
+    options.UseMySql("ToDoDB",
      Microsoft.EntityFrameworkCore.ServerVersion.Parse("8.0.41-mysql")));
-
-
-
-
-
-
 var app = builder.Build();
 app.UseCors("AllowAllOrigins");
 
