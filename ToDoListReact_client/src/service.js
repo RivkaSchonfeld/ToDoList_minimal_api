@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-axios.defaults.baseURL = process.env.REACT_APP_DB_PORT ;// קנפגתי את הניתוב הכללי 
+axios.defaults.baseURL = process.env.REACT_APP_API_URL ;// קנפגתי את הניתוב הכללי 
 // axios.defaults.baseURL = 'https://todolist-minimal-api-server.onrender.com';// קנפגתי את הניתוב הכללי 
 
 axios.interceptors.response.use(
