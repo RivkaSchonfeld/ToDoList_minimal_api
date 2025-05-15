@@ -1,11 +1,12 @@
 import axios from 'axios';
 
-axios.defaults.baseURL = 'https://todolist-minimal-api-server.onrender.com';// קנפגתי את הניתוב הכללי 
+axios.defaults.baseURL = process.env.REACT_APP_DB_PORT ;// קנפגתי את הניתוב הכללי 
+// axios.defaults.baseURL = 'https://todolist-minimal-api-server.onrender.com';// קנפגתי את הניתוב הכללי 
 
 axios.interceptors.response.use(
   response => response,
   error => {
-    console.error("There is some sort of error please notice:", error);
+    // console.error("There is some sort of error please notice:", error);
     return Promise.reject(error); //שימשיך למי שקרא לו 
   }
 );
@@ -17,7 +18,7 @@ export default {
   },
 
   addTask: async (name, iscomplete) => {
-console.log("trying to add");
+// console.log("trying to add");
     const result = await axios.post("/", { name, iscomplete });
     return result.data;
   },
