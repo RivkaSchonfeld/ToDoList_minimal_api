@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-const API_URL = process.env.REACT_APP_API_URL || 'https://todolist-minimal-api-server.onrender.com';
+const API_URL ='https://todolist-minimal-api-server.onrender.com';
+  //process.env.REACT_APP_API_URL || 'https://todolist-minimal-api-server.onrender.com';
 
 axios.defaults.baseURL = API_URL;
 console.log("API URL:", API_URL); // DEBUG
